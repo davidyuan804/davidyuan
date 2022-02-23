@@ -43,7 +43,7 @@ header
 {
     position: relative;
     width: 100%;
-    min-height: 100h;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +84,21 @@ header
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.about
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .contentBx
+{
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
 }
 .titleText
 {
