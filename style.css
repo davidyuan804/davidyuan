@@ -16,7 +16,7 @@ section
     position: relative;
     padding: 100px;
 }
-header
+.header
 {
     position: absolute;
     top: 0;
@@ -223,4 +223,57 @@ header
     font-weight: 300;
     color: #666;
     text-align: center;
+}
+
+@media (max-width: 767px)
+{
+    section
+    {
+        padding: 40px;
+    }
+    .banner .content h2
+    {
+        font-size: 2.5em;
+    }
+    .banner .content p
+    {
+        font-size: 1em;
+    }
+    .about
+    {
+        flex-direction: column;
+    }
+    .about .contentBx, .about .imgBx
+    {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .about .imgBx
+    {
+        min-height: 250px;
+    }
+    .btn
+    {
+        margin-bottom: 30px;
+    }
+    .project .projectList .box
+    {
+        position: relative;
+        max-width: 350px;
+        min-width: initial;
+        width: 350px;
+        height: 400px;
+    }
+    .project .projectList .box .imgBx
+    {
+        height: 320px;
+    }
+    .footer .sci li a img
+    {
+        filter: invert(1);
+        max-width: 30px;
+    }
+
 }
