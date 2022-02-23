@@ -48,7 +48,7 @@ header
     justify-content: center;
     align-items: center;
 }
-.bnanner::before
+.banner::before
 {
     content: '';
     position: absolute;
@@ -84,6 +84,7 @@ header
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.8;
 }
 .about
 {
