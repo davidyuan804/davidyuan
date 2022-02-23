@@ -77,7 +77,8 @@ section
     display: inline-block;
     margin-top: 30px;
     padding: 10px 30px;
-    background: #fff;
+    background-color: #fff;
+    color: #000;
 }
 .fitBg
 {
@@ -215,7 +216,6 @@ section
 }
 .footer .sci li a img
 {
-    filter: invert(1);
     max-width: 40px;
 }
 .copyrightText
@@ -275,7 +275,6 @@ section
     }
     .footer .sci li a img
     {
-        filter: invert(1);
         max-width: 30px;
     }
 
