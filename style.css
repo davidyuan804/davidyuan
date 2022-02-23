@@ -120,15 +120,15 @@ header
     width: 50%;
     min-height: 500px;
 }
-.destination
+.project
 {
     text-align: center;
 }
-.destination .conetnt
+.project .conetnt
 {
     text-align: center;
 }
-.destination .destinationList
+.project .projectList
 {
     position: relative;
     display: flex;
@@ -137,7 +137,7 @@ header
     flex-wrap: wrap;
     margin-top: 40px;
 }
-.destination .destinationList .box
+.project .projectList .box
 {
     position: relative;
     min-width: 350px;
@@ -146,21 +146,21 @@ header
     transition: 0.5s;
     margin: 10px;
 }
-.destination .destinationList:hover .box
+.project .projectList:hover .box
 {
     opacity: 0.2;
 }
-.destination .destinationList .box:hover
+.project .projectList .box:hover
 {
     opacity: 1;
 }
-.destination .destinationList .box .imgBx
+.project .projectList .box .imgBx
 {
     position: relative;
     width: 100%;
     height: 400px;
 }
-.destination .destinationList .box .content
+.project .projectList .box .content
 {
     width: 100%;
     height: 80px;
@@ -168,13 +168,13 @@ header
     justify-content: center;
     align-items: center;
 }
-.destination .destinationList .box .content h2
+.project .projectList .box .content h2
 {
     color: #fff;
     font-weight: 500;
     line-height: 1.2em;
 }
-.destination .destinationList .box .content h2 span
+.project .projectList .box .content h2 span
 {
     font-size: 0.8em;
     font-weight: 300;
