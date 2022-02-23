@@ -71,6 +71,14 @@ section
     color: #fff;
     font-size: 1.2em;
 }
+.btn
+{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+}
 .fitBg
 {
     position: absolute;
