@@ -48,7 +48,7 @@ header
     justify-content: center;
     align-items: center;
 }
-.banner::before
+.banner:before
 {
     content: '';
     position: absolute;
