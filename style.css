@@ -53,6 +53,9 @@ section
     width: 100%;
     height: 400px;
     z-index: 1;
+    background: -webkit-linear-gradient(to top, #111, transparent);
+    background: -moz-linear-gradient(to top, #111, transparent);
+    background: -o-linear-gradient(to top, #111, transparent);
     background: linear-gradient(to top, #111, transparent);
     display: block;
     pointer-events: none;
