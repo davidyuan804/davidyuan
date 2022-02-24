@@ -54,6 +54,7 @@ section
     height: 400px;
     z-index: 1;
     background: linear-gradient(to top, #111, transparent);
+    display: block;
     pointer-events: none;
 }
 .banner .content
