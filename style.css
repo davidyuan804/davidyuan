@@ -298,12 +298,19 @@ section
     {
         flex-direction: column;
     }
-    .about .contentBx, .about .imgBx, .about .contentBx2
+    .about .contentBx, .about .imgBx
     {
         min-width: 100%;
         width: 100%;
         text-align: center;
         padding-right: 0px;
+    }
+    .about .contentBx2
+    {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
     }
     .about .imgBx
     {
