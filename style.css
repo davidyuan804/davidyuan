@@ -220,6 +220,50 @@ section
     font-weight: 300;
     opacity: 0.5;
 }
+.projectOdd
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectOdd .contentBx
+{
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+.projectOdd .imgBx
+{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+}
+.projectEven
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectEven .contentBx
+{
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+.projectEven .imgBx
+{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+}
 .footer
 {
     display: flex;
@@ -304,6 +348,36 @@ section
     .project .projectList .box .imgBx
     {
         height: 320px;
+    }
+    .projectOdd
+    {
+        flex-direction: column;
+    }
+    .projectOdd .contentBx, .projectOdd .imgBx
+    {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .projectOdd .imgBx
+    {
+        min-height: 250px;
+    }
+    .projectEven
+    {
+        flex-direction: column;
+    }
+    .projectEven .contentBx, .projectEven .imgBx
+    {
+        min-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .projectEven .imgBx
+    {
+        min-height: 250px;
     }
     .footer .sci li a img
     {
