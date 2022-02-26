@@ -236,6 +236,13 @@ section
     font-weight: 300;
     opacity: 0.5;
 }
+.btn
+{
+    display: inline-block;
+    background-color: #111;
+    color: #fff;
+    border-radius: 50%;
+}
 .footer
 {
     display: flex;
