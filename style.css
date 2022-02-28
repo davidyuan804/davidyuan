@@ -238,9 +238,9 @@ section
 }
 .btn
 {
-    display: inline-block;
-    background-color: #111;
-    color: #fff;
+    display: flex;
+    background-color: #fff;
+    color: #000;
     border-radius: 50%;
 }
 .footer
