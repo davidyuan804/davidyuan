@@ -238,10 +238,13 @@ section
 }
 .btn
 {
-    display: flex;
+    position: relative;
+    display: inline-block;
     background-color: #fff;
     color: #000;
-    border-radius: 50%;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 30px;
 }
 .footer
 {
@@ -322,6 +325,10 @@ section
     .about .imgBx
     {
         min-height: 250px;
+    }
+    .btn
+    {
+        margin-bottom: 30px;
     }
     .project .projectList .box
     {
