@@ -238,9 +238,8 @@ section
 }
 .btn
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    display: inline-block;
     background-color: #fff;
     color: #000;
     text-decoration: none;
